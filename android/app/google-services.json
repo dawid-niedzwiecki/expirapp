@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21601151059",
+    "project_id": "expirapp-323714",
+    "storage_bucket": "expirapp-323714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21601151059:android:ec19b6f97831cea04d7ea6",
+        "android_client_info": {
+          "package_name": "app.expir.expirapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21601151059-irj3f7k5kj1v3ava8a82hqojc3ehlvhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEfQdRjaLqCPDKvplKIXwW5sKJ1E4u9s0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21601151059-irj3f7k5kj1v3ava8a82hqojc3ehlvhs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
