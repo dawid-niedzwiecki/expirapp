@@ -48,3 +48,6 @@ app.*.map.json
 # Mapbox related
 build_release.sh
 install_release.sh
+
+# Security
+upload-keystore.jks
