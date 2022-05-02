@@ -1,5 +1,6 @@
-
 import 'package:flutter/material.dart';
+
+import '../../logics/hubs/appwrite_hub.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({
@@ -10,9 +11,18 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Expirapp'),
+        title: const Text('ExpirApp'),
       ),
-      body: const SizedBox.shrink(),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: _login,
+          child: const Text('LogIn via Google'),
+        ),
+      ),
     );
+  }
+
+  Future<void> _login() async {
+    AppwriteHub().login();
   }
 }
